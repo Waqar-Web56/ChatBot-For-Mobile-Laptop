@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TechZone | Laptops & Mobile Phones Store</title>
+<meta name="description" content="Buy laptops, mobile phones and accessories at great prices with warranty and fast delivery.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans text-slate-800 bg-slate-50">
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+    <a href="#home" class="text-xl font-extrabold text-indigo-600">Tech<span class="text-slate-900">Zone</span></a>
+    <nav class="hidden md:flex gap-7 text-sm font-medium">
+      <a href="#laptops" class="hover:text-indigo-600">Laptops</a>
+      <a href="#phones" class="hover:text-indigo-600">Mobiles</a>
+      <a href="#accessories" class="hover:text-indigo-600">Accessories</a>
+      <a href="#why" class="hover:text-indigo-600">Why Us</a>
+      <a href="#policies" class="hover:text-indigo-600">Policies</a>
+      <a href="#contact" class="hover:text-indigo-600">Contact</a>
+    </nav>
+    <button id="menuBtn" class="md:hidden p-2" aria-label="Menu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+  <nav id="mobileNav" class="hidden md:hidden border-t border-slate-200 bg-white px-4 py-3 flex flex-col gap-3 text-sm font-medium">
+    <a href="#laptops">Laptops</a><a href="#phones">Mobiles</a><a href="#accessories">Accessories</a><a href="#why">Why Us</a><a href="#policies">Policies</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero text-white">
+  <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <span class="inline-block bg-white/15 text-xs font-semibold px-3 py-1 rounded-full mb-4">Trusted Laptop & Mobile Store</span>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Latest Laptops & Smartphones at the Best Prices</h1>
+      <p class="mt-4 text-indigo-100 text-lg">Genuine products, warranty on every purchase and fast delivery across Pakistan.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="#laptops" class="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-xl hover:bg-indigo-50">Shop Laptops</a>
+        <a href="#phones" class="border border-white/60 font-semibold px-6 py-3 rounded-xl hover:bg-white/10">Shop Mobiles</a>
+      </div>
+      <div class="mt-10 grid grid-cols-3 gap-4 text-center max-w-sm">
+        <div><p class="text-2xl font-bold">10+</p><p class="text-xs text-indigo-200">Products</p></div>
+        <div><p class="text-2xl font-bold">1 Year</p><p class="text-xs text-indigo-200">Warranty</p></div>
+        <div><p class="text-2xl font-bold">2-4 Days</p><p class="text-xs text-indigo-200">Delivery</p></div>
+      </div>
+    </div>
+    <div class="relative">
+      <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=900&q=75" alt="Laptops and phones" class="rounded-3xl shadow-2xl w-full h-72 md:h-96 object-cover" onerror="this.style.display='none'">
+    </div>
+  </div>
+</section>
+
+<!-- LAPTOPS -->
+<section id="laptops" class="max-w-6xl mx-auto px-4 py-16">
+  <h2 class="text-3xl font-extrabold">Laptops</h2>
+  <p class="text-slate-500 mt-1">Options for students, professionals and creators.</p>
+  <div id="laptopGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"></div>
+</section>
+
+<!-- PHONES -->
+<section id="phones" class="bg-white py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-extrabold">Mobile Phones</h2>
+    <p class="text-slate-500 mt-1">From budget-friendly to premium.</p>
+    <div id="phoneGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"></div>
+  </div>
+</section>
+
+<!-- ACCESSORIES -->
+<section id="accessories" class="max-w-6xl mx-auto px-4 py-16">
+  <h2 class="text-3xl font-extrabold">Accessories</h2>
+  <p class="text-slate-500 mt-1">Complete your setup.</p>
+  <div id="accGrid" class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8"></div>
+</section>
+
+<!-- WHY US -->
+<section id="why" class="bg-slate-900 text-white py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-extrabold text-center">Why Choose TechZone?</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+      <div class="feature"><span>✅</span><h3>100% Genuine</h3><p>Original products from authorized sources.</p></div>
+      <div class="feature"><span>🛡️</span><h3>Warranty</h3><p>Store warranty on laptops and phones.</p></div>
+      <div class="feature"><span>🚚</span><h3>Fast Delivery</h3><p>Nationwide shipping with COD option.</p></div>
+      <div class="feature"><span>💬</span><h3>Smart Support</h3><p>Ask our AI assistant anytime, 24/7.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- POLICIES -->
+<section id="policies" class="max-w-6xl mx-auto px-4 py-16">
+  <h2 class="text-3xl font-extrabold">Store Policies</h2>
+  <div id="policyGrid" class="grid md:grid-cols-3 gap-6 mt-8"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-white py-16">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10">
+    <div>
+      <h2 class="text-3xl font-extrabold">Visit or Contact Us</h2>
+      <p class="text-slate-500 mt-2">Questions about a product? Chat with TechBot at the bottom-right corner or reach us below.</p>
+      <ul class="mt-6 space-y-3 text-slate-700">
+        <li>📍 Main Bazaar, Bhakkar, Punjab, Pakistan</li>
+        <li>📞 +92 300 0000000</li>
+        <li>✉️ support@techzone.example</li>
+        <li id="hours">🕒 </li>
+      </ul>
+    </div>
+    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=900&q=70" alt="Tech workspace" class="rounded-2xl w-full h-64 object-cover" onerror="this.style.display='none'">
+  </div>
+</section>
+
+<footer class="bg-slate-950 text-slate-400 text-sm text-center py-6">
+  © <span id="year"></span> TechZone. Sample project for web development students.
+</footer>
+
+<!-- CHATBOT -->
+<button id="chatToggle" class="chat-fab" aria-label="Open chat">
+  <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 10h8M8 14h5m-9 6l2.5-3H19a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v14z"/></svg>
+</button>
+
+<div id="chatWindow" class="chat-window hidden" role="dialog" aria-label="TechBot chat">
+  <div class="chat-header">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center">🤖</div>
+      <div><p class="font-semibold leading-tight">TechBot</p><p class="text-xs text-indigo-100">● Online - ask about laptops & phones</p></div>
+    </div>
+    <button id="chatClose" class="text-2xl leading-none px-2" aria-label="Close chat">×</button>
+  </div>
+  <div id="chatMessages" class="chat-messages"></div>
+  <div id="quickReplies" class="quick-replies"></div>
+  <form id="chatForm" class="chat-input">
+    <input id="chatInput" type="text" maxlength="300" autocomplete="off" placeholder="Type your question..." required>
+    <button type="submit" id="sendBtn" aria-label="Send">➤</button>
+  </form>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
